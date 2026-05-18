@@ -3,8 +3,8 @@
 A modern, responsive e-commerce frontend application built with React, Vite, and Tailwind CSS.
 
 ## 🔗 Links
-- **Public GitHub Repository**:[https://github.com/VarunChandra04/fakestore]
-- **Live Deployed Demo**:[https://vercel.com/new/varunloh-s-projects/success?auto-redirect=true&developer-id=&external-id=&redirect-url=&branch=main&deploymentUrl=fakestore-8xecloi96-varunloh-s-projects.vercel.app&projectName=fakestore&s=https%3A%2F%2Fgithub.com%2FVarunChandra04%2Ffakestore&gitOrgLimit=&hasTrialAvailable=1&totalProjects=1&flow-id=GDItzgz5YRYXlWd77NgZb]
+- **Public GitHub Repository**: [https://github.com/VarunChandra04/fakestore](https://github.com/VarunChandra04/fakestore)
+- **Live Deployed Demo**: [https://fakestore-8xecloi96-varunloh-s-projects.vercel.app](https://fakestore-8xecloi96-varunloh-s-projects.vercel.app)
 
 ## 🛠️ Setup Instructions
 
@@ -12,7 +12,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/VarunChandra04/fakestore]
+   git clone https://github.com/VarunChandra04/fakestore.git
    cd "E-commerce FrontEnd"
    ```
 
@@ -27,7 +27,7 @@ To run this project locally, follow these steps:
    ```
 
 4. **View the app**:
-   Open your browser and navigate to [https://vercel.com/new/varunloh-s-projects/success?auto-redirect=true&developer-id=&external-id=&redirect-url=&branch=main&deploymentUrl=fakestore-8xecloi96-varunloh-s-projects.vercel.app&projectName=fakestore&s=https%3A%2F%2Fgithub.com%2FVarunChandra04%2Ffakestore&gitOrgLimit=&hasTrialAvailable=1&totalProjects=1&flow-id=GDItzgz5YRYXlWd77NgZb].
+   Open your browser and navigate to `http://localhost:5173/`.
 
 ## 🧠 Approach
 
