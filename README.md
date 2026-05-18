@@ -1,16 +1,46 @@
-# React + Vite
+# E-commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive e-commerce frontend application built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🔗 Links
+- **Public GitHub Repository**: [Insert GitHub Repo URL here]
+- **Live Deployed Demo**: [Insert Live Demo URL here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Setup Instructions
 
-## React Compiler
+To run this project locally, follow these steps:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Clone the repository**:
+   ```bash
+   git clone [Insert GitHub Repo URL here]
+   cd "E-commerce FrontEnd"
+   ```
 
-## Expanding the ESLint configuration
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **View the app**:
+   Open your browser and navigate to `http://localhost:5173/`.
+
+## 🧠 Approach
+
+- **Framework**: Built using React with Vite for fast HMR and optimized builds.
+- **Styling**: Styled using Tailwind CSS (v4) for rapid UI development and a responsive, modern design.
+- **Icons**: Used `lucide-react` for clean, consistent SVG icons throughout the app.
+- **Routing**: Implemented client-side routing using `react-router-dom` for seamless navigation between Home, Products, and Cart pages.
+- **State Management**: Used React's built-in Context API (`ProductContext` and `CartContext`) to manage global state for products fetching and shopping cart logic without over-complicating with external state management libraries.
+- **Data Fetching**: Used `axios` to fetch product data from the [Fake Store API](https://fakestoreapi.com/).
+
+## 💡 Assumptions Made
+
+- **Authentication**: It is assumed that user authentication is not required for this MVP, so users can browse products and add to cart without logging in.
+- **Backend & Data**: Relies on a static dummy API (Fake Store API). It is assumed this API is highly available, and any latency is simulated or acceptable for the demo.
+- **Persistence**: The shopping cart is persisted using local storage (`localStorage`) so that users don't lose their cart items upon refreshing the page.
+- **Checkout Flow**: The checkout button is currently a visual placeholder and does not process real payments or orders.
